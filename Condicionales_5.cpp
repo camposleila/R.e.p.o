@@ -9,7 +9,7 @@ int main()
     // Welcome message and indication
     cin >> x; // the user insert the data
     // here starts the decision making (process)
-    if ((x > 100) && (x == 100)) // idk why is not working help lol 
+    if ((x > 100) && (x == 100)) // idk why is not working help lol
     {
         cout << "Your purchase has a 10 percent discount. The price to pay is " << (x - x * 0.1) << endl;
     }
